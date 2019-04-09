@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "593877038614",
+    "firebase_url": "https://noticeme-5d801.firebaseio.com",
+    "project_id": "noticeme-5d801",
+    "storage_bucket": "noticeme-5d801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593877038614:android:eefa0ee5dca3a7b3",
+        "android_client_info": {
+          "package_name": "com.oscarmarchena.noticeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593877038614-rm4s80io44jf9ge4qnq9eo9lch5pmekf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-VintR3txAafJS-KgF6Mi6VXGykVHezg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593877038614-rm4s80io44jf9ge4qnq9eo9lch5pmekf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593877038614:android:19fb0f3015292ce6",
+        "android_client_info": {
+          "package_name": "xam.Android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593877038614-rm4s80io44jf9ge4qnq9eo9lch5pmekf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-VintR3txAafJS-KgF6Mi6VXGykVHezg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593877038614-rm4s80io44jf9ge4qnq9eo9lch5pmekf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
