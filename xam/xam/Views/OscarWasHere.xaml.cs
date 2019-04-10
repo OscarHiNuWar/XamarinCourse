@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using xam.Views;
 using xam.Models;
+using Plugin.Toast;
 
 namespace xam.Views
 {
@@ -19,6 +20,15 @@ namespace xam.Views
             InitializeComponent();
         }
 
-        
+        async void Item_Clicked(object sender, System.EventArgs e)
+        {
+            CrossToastPopUp.Current.ShowToastMessage("What a great Game!");
+            await Navigation.PushAsync(new AboutGame((GamesList.SelectedItem as Games).Name, (GamesList.SelectedItem as Games).Descriptions));
+        }
+
+        async void AddItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
+        }
     }
 }
