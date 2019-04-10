@@ -4,6 +4,11 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
 using xam.Models;
+using xam.Views;
+using Xamarin.Forms;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace xam.ViewModels
 {
@@ -52,6 +57,13 @@ namespace xam.ViewModels
                     Descriptions = "An Action Game"
                 },
             };
+
+            MessagingCenter.Subscribe<AgregarJuegos, Games>(this, "AddGame", (obj, game) =>
+            {
+                var newGame = game as Games;
+                Game.Add(newGame);
+               
+            });
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

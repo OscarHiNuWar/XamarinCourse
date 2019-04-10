@@ -4,7 +4,7 @@ using System.Text;
 
 namespace xam.Models
 {
-    class Games
+    public class Games
     {
         //public string Picture { get; set; }
         public string Name { get; set; }
