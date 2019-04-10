@@ -7,7 +7,8 @@ namespace xam.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        About,
+        OscarWasHere
     }
     public class HomeMenuItem
     {

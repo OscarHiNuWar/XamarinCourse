@@ -9,9 +9,9 @@ namespace xam.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "Oscar was Here";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://github.com/OscarHiNuWar/XamarinCourse")));
         }
 
         public ICommand OpenWebCommand { get; }
